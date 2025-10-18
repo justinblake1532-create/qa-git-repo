@@ -17,3 +17,8 @@
     3. Enter an invalid password.
     4. Click the "Login" button.
 - **Expected Result:** An error message "Invalid password" is displayed.
+
+## Found Bug: "Invalid password" message is incorrect
+The system shows "Authentication failed" instead of "Invalid password". The test case needs to be updated.
+- **Expected Result:** An error message "Authentication failed" is displayed.
+
